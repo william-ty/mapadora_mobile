@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": "true"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "L'application nécessite l'accès à votre appareil photo afin de pouvoir ajouter de sphoots à votre voyage."
+        }
+      ]
+    ],
+    "name": "Mapadora",
+    "slug": "Mapadora",
+    "version": "2.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splashscreen_mapadora_reworked.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#6C87A3"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "fr.archiperdu.mapadora",
+      "buildNumber": "2.3.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyA2mhWHQYLpeOrGxx6wz7SCMoUC4j5nBJI"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": ["location", "fetch"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon_android.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "fr.archiperdu.mapadora",
+      "versionCode": 8,
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyA2mhWHQYLpeOrGxx6wz7SCMoUC4j5nBJI" }
+      },
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
