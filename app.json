@@ -37,7 +37,7 @@
       "bundleIdentifier": "fr.archiperdu.mapadora",
       "buildNumber": "2.3.0",
       "config": {
-        "googleMapsApiKey": "AIzaSyA2mhWHQYLpeOrGxx6wz7SCMoUC4j5nBJI"
+        "googleMapsApiKey": "addyourapikey"
       },
       "infoPlist": {
         "UIBackgroundModes": ["location", "fetch"]
@@ -51,7 +51,7 @@
       "package": "fr.archiperdu.mapadora",
       "versionCode": 8,
       "config": {
-        "googleMaps": { "apiKey": "AIzaSyA2mhWHQYLpeOrGxx6wz7SCMoUC4j5nBJI" }
+        "googleMaps": { "apiKey": "addyourapikey" }
       },
       "permissions": [
         "ACCESS_BACKGROUND_LOCATION",
